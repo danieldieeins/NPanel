@@ -1,4 +1,4 @@
-# NPanel
+# NPanel `2024.12-beta.1`
 A plugin based control panel for Spigot / Paper
 
 ### What is this?
@@ -39,5 +39,5 @@ These are modified through the config file. Once modified, restart the server.
 * canChangeGroups - allows a NPanel user to change the groups of a user
 * canSendCommands - allows a NPanel user to send commands through the console
 
-### This repository is forked from rymate1234's JPanel
-Unfortunately the project has been inactive for years, but if you still want to take a look at it, take a look here: [rymate1234 - JPanel](https://github.com/rymate1234/JPanel)
+### This repository is forked from jmurth1234's JPanel
+Unfortunately the project has been inactive for years, but if you still want to take a look at it, take a look here: [jmurth1234 - JPanel](https://github.com/jmurth1234/JPanel)
