@@ -1,4 +1,4 @@
-# NPanel `2024.12-beta.1`
+# NPanel `BETA`
 A plugin based control panel for Spigot / Paper 1.21+ servers<br>
 **Downloads:** [Latest release](https://github.com/danieldieeins/NPanel/releases/latest/) | [All releases](https://github.com/danieldieeins/NPanel/releases/)
 
