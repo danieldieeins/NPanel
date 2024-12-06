@@ -8,9 +8,6 @@ import spark.Response;
 
 import java.util.UUID;
 
-/**
- * Created by Ryan on 07/07/2015.
- */
 public class ClientLoginPost extends PosterBase {
     private Logger logger;
 

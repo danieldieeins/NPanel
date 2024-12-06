@@ -10,9 +10,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Ryan on 27/07/2015.
- */
 public class PanelNavigation {
     static PanelNavigation panelNavigation = new PanelNavigation();
 

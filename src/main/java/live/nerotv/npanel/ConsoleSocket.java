@@ -20,12 +20,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Web socket server
- * <p>
- * Created by ryan on 24/06/15.
- */
-
 @WebSocket
 public class ConsoleSocket {
     private final PanelSessions sessions;

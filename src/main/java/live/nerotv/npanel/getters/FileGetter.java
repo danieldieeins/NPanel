@@ -11,9 +11,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-/**
- * Created by Ryan on 08/07/2015.
- */
 public class FileGetter extends GetterBase {
 
     public FileGetter(String path) {

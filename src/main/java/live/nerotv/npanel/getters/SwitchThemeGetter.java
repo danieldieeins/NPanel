@@ -3,9 +3,6 @@ package live.nerotv.npanel.getters;
 import spark.Request;
 import spark.Response;
 
-/**
- * Created by Ryan on 08/07/2015.
- */
 public class SwitchThemeGetter extends GetterBase{
 
     public SwitchThemeGetter(String path) {

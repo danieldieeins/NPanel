@@ -11,9 +11,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Ryan on 26/06/2017.
- */
 public class PluginsPageGetter extends GetterBase {
     public PluginsPageGetter(String path, String template, PanelPlugin plugin) {
         super(path, template, plugin);

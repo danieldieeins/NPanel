@@ -14,9 +14,6 @@ import java.util.HashMap;
 
 import static spark.Spark.*;
 
-/**
- * Created by Ryan on 07/07/2015.
- */
 public abstract class GetterBase {
     private JavaPlugin plugin;
     private PanelSessions sessions;

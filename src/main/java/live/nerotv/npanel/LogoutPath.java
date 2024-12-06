@@ -4,9 +4,6 @@ import live.nerotv.npanel.getters.GetterBase;
 import spark.Request;
 import spark.Response;
 
-/**
- * Created by Ryan on 29/08/2015.
- */
 public class LogoutPath extends GetterBase {
     public LogoutPath(String path) {
         super(path, null);

@@ -11,9 +11,6 @@ import java.text.NumberFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Ryan on 07/07/2015.
- */
 public class StatsGetter extends GetterBase {
 
     public StatsGetter(String path) {

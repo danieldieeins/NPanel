@@ -10,9 +10,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * Created by Ryan on 09/07/2015.
- */
 public class FilePost extends PosterBase{
 
     public FilePost(String path) {

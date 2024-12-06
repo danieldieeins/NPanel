@@ -20,8 +20,6 @@ import java.util.stream.Collectors;
  * Unlike the old one, this can also edit the permissions via vault
  * This was originally going to be a permissions manager, however it became obvious the vault API
  * wasn't geared towards management of groups :(
- *
- * Created by rymate1234 on 29/07/2015.
  */
 public class PlayerManagerPlus extends PosterBase {
     private final Permission permission;

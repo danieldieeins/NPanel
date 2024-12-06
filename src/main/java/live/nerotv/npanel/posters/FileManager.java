@@ -12,8 +12,6 @@ import java.util.*;
 
 /**
  * This class allows for the renaming and deleting of files
- *
- * Created by rymate1234 on 29/07/2015.
  */
 public class FileManager extends PosterBase {
     private final PanelPlugin plugin;

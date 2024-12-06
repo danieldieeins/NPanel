@@ -4,9 +4,6 @@ import live.nerotv.npanel.PanelPlugin;
 import spark.Request;
 import spark.Response;
 
-/**
- * Created by Ryan on 09/07/2015.
- */
 public class PlayerManagerPath extends GetterBase {
     public PlayerManagerPath(String path, PanelPlugin plugin) {
         super(path, plugin);

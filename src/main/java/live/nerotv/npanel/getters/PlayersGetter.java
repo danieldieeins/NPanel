@@ -12,9 +12,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Ryan on 08/07/2015.
- */
 public class PlayersGetter extends GetterBase {
 
     public PlayersGetter(String path, PanelPlugin plugin) {

@@ -10,9 +10,6 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 import java.util.UUID;
 
-/**
- * Created by Ryan on 07/07/2015.
- */
 public class LoginPost extends PosterBase {
     private Logger logger;
 

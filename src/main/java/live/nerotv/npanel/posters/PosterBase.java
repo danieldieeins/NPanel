@@ -6,12 +6,8 @@ import spark.Response;
 
 import java.util.HashMap;
 
-import static spark.Spark.get;
 import static spark.Spark.post;
 
-/**
- * Created by Ryan on 07/07/2015.
- */
 public abstract class PosterBase {
     private PanelSessions sessions;
     private String template;
