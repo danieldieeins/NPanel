@@ -26,7 +26,7 @@ Since this plugin doesn't require anything else other than the Spigot / Paper se
 5. OPTIONAL: Stop the server and edit the config file to allow you access to the NPanel features
 
 ### For Developers
-As of NPanel 2024.12-beta.1, you can now add pages to the panel. For more information, please [see the guide](https://nerotv.live/).
+As of NPanel 2024.12-beta.1, you can now add pages to the panel. For more information, please [see the guide](https://nerotv.live/d/5-add-pages).
 
 ### Commands
 All commands can only be executed through the console, either via NPanel or a standard minecraft console.
