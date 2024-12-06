@@ -38,7 +38,7 @@ public class ConsoleSocket {
         this.plugin = PanelPlugin.getInstance();
         sessions = PanelSessions.getInstance();
         plugin.getServerLogger().addAppender(new LogHandler(this));
-		plugin.getServerLogger().info("[JPanel] WebSocket started");
+		plugin.getServerLogger().info("[NPanel] WebSocket started");
 	}
 
 	@OnWebSocketConnect

@@ -1,21 +1,17 @@
 package net.rymate.test;
 
-import net.rymate.jpanel.PanelNavigation;
-import net.rymate.jpanel.PanelPlugin;
+import live.nerotv.npanel.PanelNavigation;
+import live.nerotv.npanel.PanelPlugin;
 import live.nerotv.npanel.getters.GetterBase;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.io.File;
 
-/**
- * Created by Ryan on 01/08/2015.
- */
 public class MainClass extends JavaPlugin {
 
     public void onEnable() {
         // extract the resource from the jar file
         saveResource("test.hbs", true);
-
+        System.out.println("test");
         PanelPlugin.extractResources(getClass(), "public");
 
         new TestGetter("/test", new File(getDataFolder() + "/test.hbs"), this);

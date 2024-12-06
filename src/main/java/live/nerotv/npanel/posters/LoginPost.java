@@ -30,7 +30,7 @@ public class LoginPost extends PosterBase {
             if (PasswordHash.validatePassword(password, getSessions().getPasswordForUser(username))) {
                 UUID sessionId = UUID.randomUUID();
                 getSessions().addSession(sessionId.toString(), username);
-                logger.log(Level.INFO, "JPanel user " + username + " logged in! IP: " + request.ip());
+                logger.log(Level.INFO, "NPanel user " + username + " logged in! IP: " + request.ip());
                 response.cookie("loggedin", sessionId.toString(), 3600);
             } else {
                 logger.log(Level.INFO, "Someone failed to login with the user " + username + "! IP: " + request.ip());

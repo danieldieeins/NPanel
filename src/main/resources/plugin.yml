@@ -10,12 +10,15 @@ main: live.nerotv.npanel.PanelPlugin
 softdepend: [Vault]
 
 commands:
-  jpanel:
+  npanel:
     description: Information about the current NPanel install
     usage: /<command>
+    aliases: [panel,jpanel,jp,np]
   addlogin:
     description: Adds a user to NPanel
     usage: /<command> [username] [password]
+    aliases: [useradd,adduser,loginadd]
   passwd:
     description: Change the password for a NPanel user
     usage: /<command> [username] [oldpassword] [newpassword]
+    aliases: [password]

@@ -95,7 +95,7 @@ public class PanelPlugin extends JavaPlugin implements Listener {
         debugMode = config.getBoolean("debug-mode");
 		useSsl = config.getBoolean("use-ssl");
 
-        resFolder = new File(new File(".").getAbsolutePath() + "/JPanel-public/");
+        resFolder = new File(new File(".").getAbsolutePath() + "/NPanel-public/");
         File verFile = new File (resFolder + "/ .resVersion");
 
         try {
@@ -145,7 +145,7 @@ public class PanelPlugin extends JavaPlugin implements Listener {
         }
 
         if (!compiled) {
-            System.out.println("[JPanel] Error when compiling scss file, panel may not work!");
+            System.out.println("[NPanel] Error when compiling scss file, panel may not work!");
         }
 
         port(httpPort);
@@ -181,7 +181,7 @@ public class PanelPlugin extends JavaPlugin implements Listener {
             new PlayerManagerPath("/player/:name/:action", this);
         }
 
-        System.out.println("[JPanel] JPanel enabled!");
+        System.out.println("[NPanel] NPanel enabled!");
     }
 
     @EventHandler(priority = EventPriority.MONITOR)
@@ -237,7 +237,7 @@ public class PanelPlugin extends JavaPlugin implements Listener {
     }
 
     public static void debug(String s) {
-        if (debugMode) System.out.println("[JPanel DEBUG] - " + s);
+        if (debugMode) System.out.println("[NPanel DEBUG] - " + s);
     }
 
     @Override
@@ -318,19 +318,20 @@ public class PanelPlugin extends JavaPlugin implements Listener {
 
 
             return true;
-        } else if (cmd.getName().equalsIgnoreCase("jpanel")) {
+        } else if (cmd.getName().equalsIgnoreCase("npanel")) {
             if (sender instanceof Player) {
                 sender.sendMessage("This must be run by the console!");
                 return true;
             }
 
-            sender.sendMessage("This server is running JPanel " + getDescription().getVersion());
-            sender.sendMessage("Made by rymate1234");
+            sender.sendMessage("This server is running NPanel " + getDescription().getVersion());
+            sender.sendMessage("Made by nerotvlive (https://github.com/danieldieeins)");
+            sender.sendMessage("Originally created by jmurth1234 (https://github.com/jmurth1234)");
 
             sender.sendMessage("------ Commands ------");
             sender.sendMessage("Command   | Description");
-            sender.sendMessage("/addlogin | adds a user to JPanel");
-            sender.sendMessage("/passwd   | change the password of a JPanel user");
+            sender.sendMessage("/addlogin | adds a user to NPanel");
+            sender.sendMessage("/passwd   | change the password of a NPanel user");
             return true;
         }
         return false;
@@ -407,7 +408,7 @@ public class PanelPlugin extends JavaPlugin implements Listener {
                 jar.close();
             }
         } catch (IOException e) {
-            logger.error("Failed to copy files to the ./JPanel-public/ folder");
+            logger.error("Failed to copy files to the ./NPanel-public/ folder");
             logger.error("Please report the following error to rymate1234!");
             e.printStackTrace();
         }
