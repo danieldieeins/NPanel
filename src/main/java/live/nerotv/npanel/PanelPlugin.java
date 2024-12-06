@@ -409,7 +409,7 @@ public class PanelPlugin extends JavaPlugin implements Listener {
             }
         } catch (IOException e) {
             logger.error("Failed to copy files to the ./NPanel-public/ folder");
-            logger.error("Please report the following error to rymate1234!");
+            logger.error("Please report the following error to nerotvlive!");
             e.printStackTrace();
         }
     }

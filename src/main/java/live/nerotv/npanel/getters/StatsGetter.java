@@ -31,6 +31,7 @@ public class StatsGetter extends GetterBase {
 
         long allocatedMemory = runtime.totalMemory();
         long freeMemory = runtime.freeMemory();
+        long usedMemory = allocatedMemory - freeMemory;
 
         // Get CPU usage
 
@@ -51,7 +52,8 @@ public class StatsGetter extends GetterBase {
         // shove in a hashmap
         Map map = new HashMap();
         map.put("total", (allocatedMemory / 1024) );
-        map.put("free", (freeMemory / 1024) );
+        map.put("free2", (freeMemory / 1024) );
+        map.put("free", (usedMemory / 1024) );
         map.put("tps", Lag.getTPS());
         map.put("cpu", cpuUsage);
 

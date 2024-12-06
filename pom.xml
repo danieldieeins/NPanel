@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>live.nerotv</groupId>
     <artifactId>npanel</artifactId>
-    <version>2024.12-beta.1</version>
+    <version>2024.12-beta.2</version>
     <packaging>jar</packaging>
     <name>NPanel</name>
     <properties>

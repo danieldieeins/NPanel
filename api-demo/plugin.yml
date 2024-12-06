@@ -4,5 +4,5 @@ description: Adds a page to NPanel
 authors: [jmurth1234,danieldieeins,nerotvlive]
 author: nerotvlive
 
-main: net.rymate.test.MainClass
+main: live.nerotv.test.MainClass
 softdepend: [NPanel]

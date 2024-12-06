@@ -1,5 +1,5 @@
 name: NPanel
-version: 2024.12-beta.1
+version: '${project.version}'
 api-version: 1.21
 description: Adds a web panel to a minecraft server.
 authors: [jmurth1234,danieldieeins,nerotvlive]
