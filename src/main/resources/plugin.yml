@@ -1,19 +1,21 @@
-name: JPanel
-version: 1.0-Beta8
+name: NPanel
+version: 2024.12-beta.1
+api-version: 1.21
 description: Adds a web panel to a minecraft server.
-author: rymate1234
+authors: [jmurth1234,danieldieeins,nerotvlive]
+author: nerotvlive
 load: STARTUP
 
-main: net.rymate.jpanel.PanelPlugin
+main: live.nerotv.npanel.PanelPlugin
 softdepend: [Vault]
 
 commands:
   jpanel:
-    description: Information about the current JPanel install
+    description: Information about the current NPanel install
     usage: /<command>
   addlogin:
-    description: Adds a user to jPanel
+    description: Adds a user to NPanel
     usage: /<command> [username] [password]
   passwd:
-    description: Change the password for a JPanel user
+    description: Change the password for a NPanel user
     usage: /<command> [username] [oldpassword] [newpassword]

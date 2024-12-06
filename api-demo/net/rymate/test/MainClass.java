@@ -2,7 +2,7 @@ package net.rymate.test;
 
 import net.rymate.jpanel.PanelNavigation;
 import net.rymate.jpanel.PanelPlugin;
-import net.rymate.jpanel.getters.GetterBase;
+import live.nerotv.npanel.getters.GetterBase;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;

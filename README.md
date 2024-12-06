@@ -1,5 +1,5 @@
-# NPanel `2024.12-beta.1`
-A plugin based control panel for Spigot / Paper
+# NPanel `2024.12-beta.1 (w.i.p.)`
+A plugin based control panel for Spigot / Paper 1.21+ servers
 
 ### What is this?
 NPanel is a plugin based control panel for your minecraft server. It is viewable within a web browser, and does not require running any external web servers, or knowledge of PHP or databases. This plugin is in beta, and has a number of key features, including:
